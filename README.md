@@ -8,7 +8,7 @@ using namespace std;
     
     #include <ctime>: Provides the time function, used to seed the random number generator.
     
-    using namespace std;: Allows direct usage of standard library names without the std:: prefix.
+    using namespace std;   : Allows direct usage of standard library names without the std:: prefix.
     
 
 2. Random Seed Initialization
@@ -35,9 +35,9 @@ A while (!end) loop is used to repeatedly generate and solve problems until the 
 
 5. Random Number and Operation Selection
 
-int random_num = std::rand() % 199 + 1; // [1, 199]
+int random_num = rand() % 199 + 1; // [1, 199]
 
-int random_num1 = std::rand() % 199 + 1;
+int random_num1 = rand() % 199 + 1;
 
 size_t rand_num = static_cast<size_t>(rand() % size(predictions));
 
